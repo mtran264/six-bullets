@@ -15,10 +15,10 @@
 <meta name="apple-mobile-web-app-title" content="Six Bullets">
 <style>
 /* Self-hosted fonts. Files live in ./fonts/ next to this page. */
-@font-face { font-family: "Roboto Slab"; src: url("fonts/RobotoSlab-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: "Roboto Slab"; src: url("fonts/RobotoSlab-Medium.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
-@font-face { font-family: "Roboto Slab"; src: url("fonts/RobotoSlab-Bold.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
-@font-face { font-family: "Rye"; src: url("fonts/Rye-Regular.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Roboto Slab"; src: url("fonts/RobotoSlab-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Roboto Slab"; src: url("fonts/RobotoSlab-500.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Roboto Slab"; src: url("fonts/RobotoSlab-700.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Rye"; src: url("fonts/Rye-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
 :root {
   box-sizing: border-box;
   padding-top: env(safe-area-inset-top, 0px);
@@ -577,7 +577,7 @@ function settingsHTML() {
       <button class="danger wide" data-act="clear-open">Clear all data</button>
     </div>
     ${preview}${clear}
-    <div class="set-card"><p class="set-title">About</p><p class="note">Six Bullets, version 1.0</p></div>`;
+    <div class="set-card"><p class="set-title">About</p><p class="note">Six Bullets, version 1.1</p></div>`;
 }
 function onboardingHTML() {
   const s = UI.ob.step;
